@@ -5953,6 +5953,33 @@
         "explorerTxLink": "https://explorer.pyrin.network/txs/{0}",
         "explorerAccountLink": "https://explorer.pyrin.network/addresses/{0}"
     },
+    "quai": {
+        "name": "Quai Network",
+        "symbol": "QUAI",
+        "family": "quai",
+        "website": "https://qu.ai/",
+        "market": "",
+        "twitter": "https://twitter.com/QuaiNetwork",
+        "discord": "https://discord.gg/quai",
+        "coinbaseHasher": {
+            "hash": "sha3-256"
+        },
+        "headerHasher": {
+        "hash": "progpow-quai"
+        },
+        "blockHasher": {
+            "hash": "sha3-256"
+        },
+        "shareMultiplier": 256,
+        "explorerBlockLink": "https://dashboard.quai.network/block/$hash$",
+        "explorerTxLink": "https://dashboard.quai.network/tx/{0}",
+        "hasMultipleChains": true,
+        "chainStructure": {
+            "prime": 1,
+            "regions": 3,
+            "zonesPerRegion": 3
+        }
+    },
     "sedracoin": {
         "name": "Sedracoin",
         "canonicalName": "Sedracoin",
