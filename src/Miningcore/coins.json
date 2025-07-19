@@ -385,7 +385,7 @@
             ]
         },
         "coinbaseIgnoreAuxFlags": true,
-        "explorerBlockLink": "https://bitcoinii.ddns.net/explorer/block/{0}",
+        "explorerBlockLink": "https://bitcoinii.ddns.net/explorer/block-height/{0}",
         "explorerTxLink": "https://bitcoinii.ddns.net/explorer/tx/{0}",
         "explorerAccountLink": "https://bitcoinii.ddns.net/explorer/address/{0}"
     },
