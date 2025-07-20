@@ -362,7 +362,7 @@
     "bitcoinii": {
         "name": "BitcoinII",
         "canonicalName": "BitcoinII",
-        "symbol": "BCII",
+        "symbol": "BC2",
         "family": "bitcoin",
         "website": "https://bitcoin-ii.org/",
         "github": "https://github.com/BitcoinII-Dev/BitcoinII/tree/main",
