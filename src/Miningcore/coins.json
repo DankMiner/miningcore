@@ -594,6 +594,36 @@
         "explorerTxLink": "https://chainz.cryptoid.info/boli/tx.dws?{0}.htm",
         "explorerAccountLink": "https://chainz.cryptoid.info/boli/address.dws?{0}.htm"
     },
+    "briskcoin": {
+        "name": "Briskcoin",
+        "canonicalName": "Briskcoin",
+        "symbol": "BKC",
+        "family": "bitcoin",
+        "website": "https://briskcoin.org/",
+        "github": "https://github.com/briskcoin-project/briskcoin",
+        "market": "",
+        "twitter": "https://x.com/briskcoin",
+        "telegram": "https://t.me/+qL1VEele1vY2Njc1",
+        "discord": "https://discord.gg/Ufxvc3fU",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "sha256d"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "coinbaseIgnoreAuxFlags": true,
+        "explorerBlockLink": "https://explorer.briskcoin.org/block-height/{0}",
+        "explorerTxLink": "https://explorer.briskcoin.org/tx/{0}",
+        "explorerAccountLink": "https://explorer.briskcoin.org/address/{0}"
+    },
     "browncoin": {
         "name": "Browncoin",
         "symbol": "BRWN",
