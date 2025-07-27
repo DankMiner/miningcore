@@ -136,6 +136,8 @@ public class Program : BackgroundService
                     services.AddHttpClient();
                     services.AddMemoryCache();
 
+                    services.AddHostedService<StratumV2Service>();
+
                     ConfigureBackgroundServices(services);
 
                     // MUST BE THE LAST REGISTERED HOSTED SERVICE!
