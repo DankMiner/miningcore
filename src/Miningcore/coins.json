@@ -5399,6 +5399,55 @@
         "explorerBlockLink": "https://www.exploremonero.com/block/$height$",
         "explorerTxLink": "https://www.exploremonero.com/transaction/{0}"
     },
+    "virel": {
+        "name": "Virel",
+        "canonicalName": "Virel",
+        "symbol": "VRL",
+        "family": "cryptonote",
+        "website": "https://virel.org/",
+        "market": "",
+        "twitter": "https://twitter.com/virel_project",
+        "telegram": "",
+        "discord": "",
+        "canonicalAlgorithm": "randomx/vrl",
+        "slug": "virel",
+        "algorithm": "randomx",
+        "hashrate": 1,
+        "coinbaseHasher": {
+          "hash": "cryptonight"
+        },
+        "headerHasher": {
+          "hash": "randomx",
+          "args": {
+            "realm": "virel"
+          }
+        },
+        "blockHasher": {
+          "hash": "cryptonight-aux",
+          "args": {
+            "cnVariant": 0
+          }
+        },
+        "shareMultiplier": 1,
+        "explorerBlockLink": "https://explorer.virel.org/block/$hash$",
+        "explorerTxLink": "https://explorer.virel.org/tx/{0}",
+        "explorerAccountLink": "https://explorer.virel.org/address/{0}",
+        "addressPrefix": 86,
+        "addressPrefixTestnet": 53,
+        "addressPrefixIntegrated": 54,
+        "addressPrefixIntegratedTestnet": 55,
+        "supportsPaymentId": false,
+        "paymentIdSeparator": ".",
+        "memoTxComment": true,
+        "blockTime": 120,
+        "difficultyAdjustmentWindow": 720,
+        "difficultyTargetTime": 120,
+        "hasherValue": 0,
+        "smallestUnit": 100000000,
+        "coinUnits": 10000000000,
+        "networkId": "5400199619762955418"
+      }
+    },
      "conceal": {
         "name": "Conceal",
         "canonicalName": "Conceal",
