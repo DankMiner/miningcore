@@ -6100,5 +6100,24 @@
         "explorerBlockLink": "https://explorer.xelis.io/blocks/$height$",
         "explorerTxLink": "https://explorer.xelis.io/txs/{0}",
         "explorerAccountLink": "https://explorer.xelis.io/accounts/{0}"
+    }, 
+    "zapchain": {
+        "name": "ZapChain",
+        "canonicalName": "ZapChain",
+        "symbol": "ZAP",
+        "family": "ethereum",
+        "website": "https://zapscan.net/",
+        "github": "https://github.com/ZapChainPoW/go-zap",
+        "market": "",
+        "twitter": "",
+        "telegram": "",
+        "discord": "",
+        "explorerBlockLinks": {
+            "block": "https://zapscan.net/block/$height$",
+            "uncle": "https://zapscan.net/uncle/$height$"
+        },
+        "explorerTxLink": "https://zapscan.net/tx/{0}",
+        "explorerAccountLink": "https://zapscan.net/address/{0}",
+        "ethasher": "ethash"
     }
 }
