@@ -6102,22 +6102,24 @@
         "explorerAccountLink": "https://explorer.xelis.io/accounts/{0}"
     }, 
     "zapchain": {
-        "name": "ZapChain",
-        "canonicalName": "ZapChain",
-        "symbol": "ZAP",
-        "family": "ethereum",
-        "website": "https://zapscan.net/",
-        "github": "https://github.com/ZapChainPoW/go-zap",
-        "market": "",
-        "twitter": "",
-        "telegram": "",
-        "discord": "",
-        "explorerBlockLinks": {
-            "block": "https://zapscan.net/block/$height$",
-            "uncle": "https://zapscan.net/uncle/$height$"
-        },
-        "explorerTxLink": "https://zapscan.net/tx/{0}",
-        "explorerAccountLink": "https://zapscan.net/address/{0}",
-        "ethasher": "ethash"
+    "name": "ZapChain",
+    "canonicalName": "ZapChain",
+    "symbol": "ZAP",
+    "family": "ethereum",
+    "chainId": 757,
+    "networkId": 757,  
+    "website": "https://zapscan.net/",
+    "github": "https://github.com/ZapChainPoW/go-zap",
+    "market": "",
+    "twitter": "",
+    "telegram": "",
+    "discord": "",
+    "explorerBlockLinks": {
+        "block": "https://zapscan.net/block/$height$",
+        "uncle": "https://zapscan.net/uncle/$height$"
+    },
+    "explorerTxLink": "https://zapscan.net/tx/{0}",
+    "explorerAccountLink": "https://zapscan.net/address/{0}",
+    "ethasher": "ethash"
     }
 }
