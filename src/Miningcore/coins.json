@@ -1053,6 +1053,41 @@
         "explorerTxLink": "https://dogechain.info/tx/{0}",
         "explorerAccountLink": "https://dogechain.info/address/{0}"
     },
+    "mydogecoin": {
+        "name": "MyDogecoin",
+        "canonicalName": "MyDogecoin",
+        "symbol": "MYDOGE",
+        "family": "bitcoin",
+        "website": "https://mydogecoin.fun/",
+        "github": "https://github.com/mydogecoin-project/mydogecoin",
+        "market": "",
+        "twitter": "",
+        "telegram": "",
+        "discord": "",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "scrypt",
+            "args": [
+                1024,
+                1
+            ]
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "shareMultiplier": 65536,
+        "coinbaseMinConfimations": 251,
+        "explorerBlockLink": "https://explorer.mydogecoin.fun/block-height/$height$",
+        "explorerTxLink": "https://explorer.mydogecoin.fun/tx/{0}",
+        "explorerAccountLink": "https://explorer.mydogecoin.fun/address/{0}"
+    },
     "ecash": {
         "name": "eCash",
         "canonicalName": "eCash",
